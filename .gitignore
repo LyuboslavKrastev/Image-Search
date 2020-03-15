@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# secrets that should not be kept in the React App
+# reference: https://create-react-app.dev/docs/adding-custom-environment-variables/
+secrets/
