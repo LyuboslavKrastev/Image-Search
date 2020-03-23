@@ -20,7 +20,7 @@ class ImageCard extends React.Component {
     const spans = Math.ceil(height / autoRowHeight);
 
     this.setState({
-      spans
+      spans // used for the grid-row-end CSS property
     })
   }
 
